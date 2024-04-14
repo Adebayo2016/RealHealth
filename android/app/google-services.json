@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "498099721838",
+    "project_id": "resthealthuk",
+    "storage_bucket": "resthealthuk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498099721838:android:1b3d17fc72c967aed6f87f",
+        "android_client_info": {
+          "package_name": "com.rest.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498099721838-7q8ap2bdmhe6355u5bmqc695tignjg4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rest.health",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "498099721838-r8k7090125pl3t603ve8i4gtv9ad4sa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAaZ7pXch34n8OQEADlFfBDFYCBVenPE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498099721838-r8k7090125pl3t603ve8i4gtv9ad4sa4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "498099721838-gcrqeudasdpel0hgbgv6ge9e9m0ssb78.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rest.health"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498099721838:android:0c1f79476b94fca4d6f87f",
+        "android_client_info": {
+          "package_name": "rest.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498099721838-2fnd4oudvpashh97nuqa9b9dm6e43vi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rest.health",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "498099721838-r8k7090125pl3t603ve8i4gtv9ad4sa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAaZ7pXch34n8OQEADlFfBDFYCBVenPE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498099721838-r8k7090125pl3t603ve8i4gtv9ad4sa4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "498099721838-gcrqeudasdpel0hgbgv6ge9e9m0ssb78.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rest.health"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

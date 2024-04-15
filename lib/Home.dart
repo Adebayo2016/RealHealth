@@ -189,7 +189,23 @@ Widget _buildLatestTab() {
                   ),
                 ],
               ),
-              child: Text((data as ChartData).additionalData),
+              child: Container(
+                  height: 200,
+                  width :150,
+                  decoration: BoxDecoration(
+                  ),
+                  child: Column(
+                    children: [
+                      Text("Tuesday, 1st January 2024",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold
+                          )
+                      ),
+                      SizedBox(height:5),
+                      Text((data as ChartData).additionalData),
+                    ],
+                  )),
             );
           },
         ),
@@ -330,7 +346,23 @@ Widget _buildQuarterTab() {
                         ),
                       ],
                     ),
-                    child: Text((data as ChartData).additionalData),
+                  child: Container(
+                      height: 200,
+                      width :150,
+                      decoration: BoxDecoration(
+                      ),
+                      child: Column(
+                        children: [
+                          Text("Tuesday, 2nd January 2024",
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold
+                              )
+                          ),
+                          SizedBox(height:5),
+                          Text((data as ChartData).additionalData),
+                        ],
+                      )),
                   );
                 },
               ),
@@ -522,6 +554,7 @@ Widget _buildYearTab() {
     ),
   ];
 
+
   List<LineSeries<ChartData, String>> lineSeriesList = [];
   lineSeriesList.add(
     LineSeries<ChartData, String>(
@@ -571,7 +604,23 @@ Widget _buildYearTab() {
                         ),
                       ],
                     ),
-                    child: Text((data as ChartData).additionalData),
+                    child: Container(
+                      height: 200,
+                      width :150,
+                      decoration: BoxDecoration(
+                      ),
+                        child: Column(
+                          children: [
+                            Text("Tuesday, 1st January 2024",
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold
+                            )
+                            ),
+                            SizedBox(height:5),
+                            Text((data as ChartData).additionalData),
+                          ],
+                        )),
                   );
                 },
               ),
@@ -914,3 +963,40 @@ Widget filledCircleMarkerBuilder(
     ),
   );
 }
+
+
+
+
+// class CustomCircleMarkerRenderer extends ChartSeriesRenderer {
+//   CustomCircleMarkerRenderer();
+//
+//   @override
+//   void drawPoint(
+//       ChartCanvas canvas,
+//       Size size,
+//       List<Offset?> points,
+//       int pointIndex,
+//       int seriesIndex,
+//       SfCartesianChart chart,
+//       CartesianSeriesRenderer seriesRenderer,
+//       ) {
+//     final ChartData data = seriesRenderer.series.dataSource![pointIndex];
+//
+//     final Paint paint = Paint()
+//       ..color = data.color
+//       ..style = PaintingStyle.fill;
+//
+//     canvas.drawCircle(points[0]!, 5, paint); // Adjust the radius as needed
+//   }
+//
+//   @override
+//   ChartSegment createSegment() {
+//     // TODO: implement createSegment
+//     throw UnimplementedError();
+//   }
+//
+//   @override
+//   void customizeSegment(ChartSegment segment) {
+//     // TODO: implement customizeSegment
+//   }
+// }
